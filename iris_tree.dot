@@ -1,6 +1,6 @@
 digraph Tree {
 node [shape=box] ;
-0 [label="Petal Length <= 2.45\ngini = 0.667\nsamples = 150\nvalue = [50, 50, 50]\nclass = Setosa"] ;
+0 [label="Petal Width <= 0.8\ngini = 0.667\nsamples = 150\nvalue = [50, 50, 50]\nclass = Setosa"] ;
 1 [label="gini = 0.0\nsamples = 50\nvalue = [50, 0, 0]\nclass = Setosa"] ;
 0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
 2 [label="Petal Width <= 1.75\ngini = 0.5\nsamples = 100\nvalue = [0, 50, 50]\nclass = Versicolour"] ;
@@ -25,11 +25,11 @@ node [shape=box] ;
 9 -> 11 ;
 12 [label="Petal Length <= 4.85\ngini = 0.043\nsamples = 46\nvalue = [0, 1, 45]\nclass = Virginica"] ;
 2 -> 12 ;
-13 [label="Sepal Length <= 5.95\ngini = 0.444\nsamples = 3\nvalue = [0, 1, 2]\nclass = Virginica"] ;
+13 [label="Sepal Width <= 3.1\ngini = 0.444\nsamples = 3\nvalue = [0, 1, 2]\nclass = Virginica"] ;
 12 -> 13 ;
-14 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1, 0]\nclass = Versicolour"] ;
+14 [label="gini = 0.0\nsamples = 2\nvalue = [0, 0, 2]\nclass = Virginica"] ;
 13 -> 14 ;
-15 [label="gini = 0.0\nsamples = 2\nvalue = [0, 0, 2]\nclass = Virginica"] ;
+15 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1, 0]\nclass = Versicolour"] ;
 13 -> 15 ;
 16 [label="gini = 0.0\nsamples = 43\nvalue = [0, 0, 43]\nclass = Virginica"] ;
 12 -> 16 ;
