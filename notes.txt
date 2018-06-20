@@ -1,0 +1,6 @@
+random forest regression: http://www.blopig.com/blog/2017/07/using-random-forests-in-python-with-scikit-learn/
+detecting breast cancer with RF: http://dataaspirant.com/2017/06/26/random-forest-classifier-python-scikit-learn/
+Maybe good: https://towardsdatascience.com/random-forest-in-python-24d0893d51c0
+decision surfaces: http://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_iris.html#sphx-glr-auto-examples-ensemble-plot-forest-iris-py
+OOB: http://scikit-learn.org/stable/auto_examples/ensemble/plot_ensemble_oob.html#sphx-glr-auto-examples-ensemble-plot-ensemble-oob-py
+ROC Curve: http://scikit-learn.org/stable/auto_examples/ensemble/plot_feature_transformation.html#sphx-glr-auto-examples-ensemble-plot-feature-transformation-py
