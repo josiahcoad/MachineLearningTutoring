@@ -1,0 +1,22 @@
+============================
+Breast Tumor Data - Features
+============================
+
+SSF: spatial scale filter
+ROI: region of interest
+
+===(PRIMARY ROI STATISTICS)==================================================================
+mean: average
+sd: standard deviation [https://en.wikipedia.org/wiki/Standard_deviation]
+entropy: [https://en.wikipedia.org/wiki/Entropy_(information_theory)]
+mpp: mean positive pixel, the average value if negative values are left out of the average
+skewness: [https://en.wikipedia.org/wiki/Skewness]
+kurtosis: [https://en.wikipedia.org/wiki/Kurtosis]
+total: sum of pixel values
+==========================
+
+nl: normal tissue, on which texture measurements are taken
+diff: the difference between the tumor texture values and the nl texture values
+ROIname: disregard this
+size_mm: tumor size in millimeters
+side: breast which has tumor
